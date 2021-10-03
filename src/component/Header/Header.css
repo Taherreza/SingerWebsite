@@ -1,0 +1,20 @@
+.brand h1 {
+    color: #ddd;
+    padding-top: 8px;
+}
+
+.menu {
+    list-style: none;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    padding-top: 18px;
+}
+
+.menu:hover {
+    color: chocolate;
+}
