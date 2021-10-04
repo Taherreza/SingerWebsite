@@ -1,12 +1,12 @@
 
 import './App.css';
+// bootstrap css use
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
 
-} from "react-router-dom";
+// react-router-dom use
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+//all component import
 import Home from './component/Home/Home';
 import About from './component/About/About';
 import Serve from './component/Serve/Serve';
