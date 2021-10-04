@@ -24,8 +24,8 @@ const Home = () => {
                                     <h4>{childs.name}</h4>
                                     <p>Age: {childs.age}</p>
                                     <p>  {childs.des}</p>
-                                    <Link to={`/serve/${childs.idTeam}`}>
-                                        <button className="btn btn-primary">Details</button>
+                                    <Link to="/serve">
+                                        <button className="btn btn-primary"> View Details</button>
                                     </Link>
                                 </div>
                             </div>
